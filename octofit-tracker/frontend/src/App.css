@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+/* Global dark theme */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+}
+/* Card styling */
+.card {
+  background-color: #1e1e1e;
+  border: none;
+}
+/* Table dark borders */
+.table-dark th,
+.table-dark td {
+  border-color: #333;
+}
+/* Navbar link colors */
+a.nav-link {
+  color: #e0e0e0;
+}
+a.nav-link:hover {
+  color: #ffa07a;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  margin-left: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #4682b4; /* Steel blue */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #f0f8ff; /* Light blue */
+}
+
+.App-link {
+  color: #ff4500; /* Orange red */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.App-link:hover {
+  color: #ffa07a; /* Light salmon */
+}
+
+nav {
+  background-color: #2e8b57; /* Sea green */
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li a {
+  color: #f0f8ff; /* Light blue */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffa07a; /* Light salmon */
+}
+
+h1 {
+  color: #4b0082; /* Indigo */
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+table {
+  width: 90%;
+  margin: 1rem auto;
+  border-collapse: collapse;
+  background-color: #ffffff; /* White background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table th {
+  background-color: #4682b4; /* Steel blue */
+  color: white;
+  font-size: 1.2rem;
+}
+
+table tr:nth-child(even) {
+  background-color: #f0f8ff; /* Light blue */
+}
+
+table tr:hover {
+  background-color: #e0ffff; /* Light cyan */
+}
+
+button {
+  background-color: #4682b4; /* Steel blue */
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #5a9bd4; /* Lighter steel blue */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
